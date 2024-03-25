@@ -23,17 +23,17 @@ Table of Content:
 03/ header
 04/ slider
 05/ photography
-06/ button 
-07/ work 
+06/ button
+07/ work
 08/ team
-09/ contact 
-10/ price 
-11/ portfolio 
-12/ blog 
-13/ sidebar  
-13/ page-header  
-13/ project  
-13/ we-dope  
+09/ contact
+10/ price
+11/ portfolio
+12/ blog
+13/ sidebar
+13/ page-header
+13/ project
+13/ we-dope
 13/ progress
 13/ comingsoon
 13/ error
@@ -349,11 +349,11 @@ iframe {
 }
 
 .main_header_area.navbar_fixed .main_menu_area .navbar.navbar-default .nav.navbar-nav.navbar-right li a {
-  color: #31353d;
+  color: #0891a4;
 }
 
 .main_header_area.navbar_fixed .main_menu_area .navbar.navbar-default .nav.navbar-nav.navbar-right li.active a {
-  color: #ffcd00;
+  color: #0891a4;
 }
 
 .header_top_area {
@@ -598,7 +598,7 @@ iframe {
 }
 
 .transparent_menu .main_menu_area .navbar.navbar-default .nav.navbar-nav.navbar-right li:hover > a, .transparent_menu .main_menu_area .navbar.navbar-default .nav.navbar-nav.navbar-right li.active > a {
-  color: #ffcd00;
+  color: #0891a4;
 }
 
 .transparent_menu + section, .transparent_menu + div, .transparent_menu + .row {
@@ -631,26 +631,26 @@ iframe {
 }
 
 .main_slider_area .rev_slider .tp-revslider-mainul li .slider_text_box .first_text {
-  color: #fff;
+  color: #c1dbd7;
   font-family: "Open Sans", sans-serif;
 }
 
 .main_slider_area .rev_slider .tp-revslider-mainul li .slider_text_box .secand_text {
-  color: #ffcd00;
+  color: #c1dbd7;
   text-transform: uppercase;
   font-weight: bold !important;
   font-family: "PT Sans", sans-serif;
 }
 
 .main_slider_area .rev_slider .tp-revslider-mainul li .slider_text_box2 .first_text {
-  color: #ffcd00;
+  color:#c1dbd7;
   text-transform: uppercase;
   font-weight: bold !important;
   font-family: "PT Sans", sans-serif;
 }
 
 .main_slider_area .rev_slider .tp-revslider-mainul li .slider_text_box2 .secand_text {
-  color: #fff;
+  color: #c1dbd7;
   font-family: "Open Sans", sans-serif;
 }
 
@@ -1033,12 +1033,12 @@ iframe {
 .slider_btn {
   display: inline-block;
   padding: 0px 36px;
-  border: 2px solid #ffcd00;
-  line-height: 50px;
+  border: 2px solid white;
+  line-height: 40px;
   font-size: 20px;
   font-family: "Open Sans", sans-serif;
   text-transform: uppercase;
-  color: #2c2c2c;
+  color: black;
   font-weight: bold;
   position: relative;
   z-index: 2;
@@ -1052,7 +1052,7 @@ iframe {
   content: "";
   position: absolute;
   z-index: -1;
-  background: #ffcd00;
+  background: #c1dbd7;
   height: 250px;
   width: 320px;
   border-radius: 50%;
@@ -3302,8 +3302,8 @@ iframe {
 }
 
 .our_project_details .project_item .project_hover .project_hover_inner .project_hover_content p {
-  font-size: 12px;
-  color: #31353d;
+  font-size: 14px;
+  color: #ffffff;
   font-family: "Montserrat", sans-serif;
   line-height: 22px;
   padding: 15px 0px 25px 0px;
@@ -3328,7 +3328,7 @@ iframe {
 }
 
 .our_project_details .project_item:hover .project_hover .project_hover_inner {
-  background: rgba(255, 205, 0, 0.8);
+  background:#0891a4ba;
 }
 
 .our_project_details .project_item:hover .project_hover .project_hover_inner h4 {
@@ -3549,8 +3549,8 @@ iframe {
   margin-bottom: 30px;
   overflow: hidden;
   text-align: center;
-  max-width: 657px;
-  margin: 0px auto 30px;
+  max-width: 800px;
+  margin: 15px auto 15px;
 }
 
 .our_project2_area .our_project_filter li {

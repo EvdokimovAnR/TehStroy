@@ -27,7 +27,6 @@
         <!-- Extra plugin css -->
         <link href="{% static 'css/style.css'%}" rel="stylesheet">
         <link href="{% static 'css/responsive.css'%}" rel="stylesheet">
-        <link href="{% static 'scss/_slider.scss'%}" rel="stylesheet">
 
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -69,31 +68,20 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                             </button>
-                            <a class="navbar-brand" href="#"><img src="{% static 'img/logo-TehStroy.png'%}" alt=""><img src="{% static 'img/logo-TehStroy.png'%}" alt=""></a>
+                            <a class="navbar-brand" href="#"><img src="{% static 'img/logo-TehStroy (3).png'%}" alt=""><img src="{% static 'img/logo-TehStroy (3).png'%}" alt=""></a>
                         </div>
 
                         <!-- Collect the nav links, forms, and other content for toggling -->
                         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                             <ul class="nav navbar-nav navbar-right">
                                 <li class="dropdown submenu active">
-                                    <a href="{% url 'index'%}" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Главная</a>
-                                    <ul class="dropdown-menu">
-<!--                                        <li><a href="{% url 'index'%}">Главная</a></li>-->
-<!--&lt;!&ndash;                                        <li><a href="index-2.html">Home 02</a></li>&ndash;&gt;-->
-                                    </ul>
+                                    <a href="{% url 'index'%}">Главная</a>
                                 </li>
-                                <li class="dropdown submenu">
-                                    <a href="{% url 'projects'%}" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Проекты</a>
-                                    <ul class="dropdown-menu">
-<!--                                        <li><a href="">Project Full Width</a></li>-->
-<!--                                        <li><a href="project-grid-three-column.html">Project Grid 01</a></li>-->
-<!--                                        <li><a href="project-grid-two-column.html">Project Grid 02</a></li>-->
-<!--                                        <li><a href="project-three-column.html">Project Grid 03</a></li>-->
-<!--                                        <li><a href="project-single.html">Single Project</a></li>-->
-                                    </ul>
+                                <li >
+                                    <a href="{% url 'projects'%}">Проекты</a>
                                 </li>
                                 <li><a href="{% url 'services'%}">Услуги</a></li>
-                                <li><a href="#">О нас</a></li>
+                                <li><a href="">О нас</a></li>
 <!--                                <li><a href="blog-details.html">blog</a></li>-->
                                 <li><a href="#">Контакты</a></li>
 <!--                                <li class="icon_search"><a href="#"><i class="mdi mdi-cart"></i></a></li>-->
@@ -109,9 +97,9 @@
         <section class="main_slider_area slider_2">
             <div id="main_slider" class="rev_slider" data-version="5.3.1.6">
                 <ul>
-                    <li data-index="rs-2972" data-transition="slidingoverlayhorizontal" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="default"  data-thumb="{% static 'img/Stroyka.jpg'%}"  data-rotate="0"  data-saveperformance="off"  data-title="Web Show" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+                    <li data-index="rs-2972" data-transition="slidingoverlayhorizontal" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="default"  data-thumb="{% static 'img/home-slider/Photo_stroyki'%}"  data-rotate="0"  data-saveperformance="off"  data-title="Web Show" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
                         <!-- MAIN IMAGE -->
-                        <img src="{% static 'img/home-slider/slider-2.jpg'%}"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="5" class="rev-slidebg" data-no-retina>
+                        <img src="{% static 'img/home-slider/Photo_stroyki.jpg'%}"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="5" class="rev-slidebg" data-no-retina>
                         <!-- LAYERS -->
                         <div class="slider_text_box2">
                             <div class="tp-caption first_text"
@@ -119,62 +107,62 @@
                             data-y="['middle','middle','middle','middle','middle']"
                             data-hoffset="['0','15','15','15','15']"
                             data-voffset="['-30','-30','-30','-30','-60']"
-                                 data-fontsize="['50','50','40','40','25']"
-                            data-lineheight="['60','60','50','50','35']"
+                            data-fontsize="['50','50','40','35','25']"
+                            data-lineheight="['70','70','60','60','40']"
                             data-width="['none','none','none','none']"
                             data-height="none"
                             data-whitespace="['nowrap','nowrap','nowrap','nowrap','nowrap']"
                             data-type="text"
                             data-responsive_offset="on"
                             data-frames='[{"from":"z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;","speed":1500,"to":"o:1;","delay":1700,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"x:left(R);","ease":"Power3.easeIn"}]'
-                            data-textAlign="['center','center','center','center']"
-                            data-paddingtop="[0,0,0,0]"
+                            data-textAlign="['left','left','left','left']"
+                            data-paddingtop="[160,160,170,180]"
                             data-paddingright="[0,0,0,0]"
-                            data-paddingbottom="[20,20,20,20]"
+                            data-paddingbottom="[10,10,10,10]"
                             data-paddingleft="[0,0,0,0]">Мы воплотим Ваш проект <br> в реальность</div>
 
-                            <div class="tp-caption secand_text"
-                            data-x="['left','left','left','left','left']"
-                            data-y="['middle','middle','middle','middle']"
-                            data-hoffset="['0','15','15','15','15']"
-                            data-voffset="['50','50','50','40','0']"
-                            data-fontsize="['28','28','28','20','20']"
-                            data-lineheight="['38','38','38','30','30']"
-                            data-width="['760','760','760','550','400']"
-                            data-height="none"
-                            data-whitespace="normal"
-                            data-type="text"
-                            data-responsive_offset="on"
-                            data-frames='[{"from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":2000,"to":"o:1;","delay":1750,"ease":"Power2.easeInOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]'
-                            data-textAlign="['left','left','left','left']"
-                            data-paddingtop="[0,0,0,0]"
-                            data-paddingright="[0,0,0,0]"
-                            data-paddingbottom="[0,0,0,0]"
-                            data-paddingleft="[0,0,0,0]">We made just most advance & user friendly constraction theme in the world</div>
+<!--                            <div class="tp-caption secand_text"-->
+<!--                            data-x="['left','left','left','left','left']"-->
+<!--                            data-y="['middle','middle','middle','middle']"-->
+<!--                            data-hoffset="['0','15','15','15','15']"-->
+<!--                            data-voffset="['50','50','50','40','0']"-->
+<!--                            data-fontsize="['28','28','28','20','20']"-->
+<!--                            data-lineheight="['38','38','38','30','30']"-->
+<!--                            data-width="['760','760','760','550','400']"-->
+<!--                            data-height="none"-->
+<!--                            data-whitespace="normal"-->
+<!--                            data-type="text"-->
+<!--                            data-responsive_offset="on"-->
+<!--                            data-frames='[{"from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":2000,"to":"o:1;","delay":1750,"ease":"Power2.easeInOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]'-->
+<!--                            data-textAlign="['left','left','left','left']"-->
+<!--                            data-paddingtop="[0,0,0,0]"-->
+<!--                            data-paddingright="[0,0,0,0]"-->
+<!--                            data-paddingbottom="[0,0,0,0]"-->
+<!--                            data-paddingleft="[0,0,0,0]">We made just most advance & user friendly constraction theme in the world</div>-->
 
                             <div class="tp-caption"
                             data-x="['left','left','left','left','left']"
                             data-y="['middle','middle','middle','middle']"
                             data-hoffset="['0','15','15','15','15']"
                             data-voffset="['140','140','140','130','90']"
-                            data-fontsize="['28','28','28','28']"
+                            data-fontsize="['128','120','115','115']"
                             data-lineheight="['38','38','38','38']"
-                            data-width="['730']"
+                            data-width="['830']"
                             data-height="none"
                             data-whitespace="normal"
                             data-type="text"
                             data-responsive_offset="on"
                             data-frames='[{"from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":2000,"to":"o:1;","delay":1750,"ease":"Power2.easeInOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]'
                             data-textAlign="['left','left','left','left']"
-                            data-paddingtop="[0,0,0,0]"
+                            data-paddingtop="[40,40,40,40]"
                             data-paddingright="[0,0,0,0]"
                             data-paddingbottom="[0,0,0,0]"
-                            data-paddingleft="[0,0,0,0]"><a class="slider_btn" href="#">browse services</a></div>
+                            data-paddingleft="[0,0,0,0]"><a class="slider_btn" href="{% url 'services'%}">Посмотреть услуги</a></div>
                         </div>
                     </li>
                     <li data-index="rs-2973" data-transition="slidingoverlayhorizontal" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="default"  data-thumb="img/home-slider/slider-1.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Web Show" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
                         <!-- MAIN IMAGE -->
-                        <img src="{% static 'img/home-slider/slider-1.jpg'%}"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="5" class="rev-slidebg" data-no-retina>
+                        <img src="{% static 'img/home-slider/Photo_stroyki.jpg'%}"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="5" class="rev-slidebg" data-no-retina>
                         <!-- LAYERS -->
                         <div class="slider_text_box">
                             <div class="tp-caption first_text"
@@ -240,22 +228,22 @@
                     <div class="col-md-4 col-sm-6">
                         <div class="f_content_item">
                             <i class="fa fa-ge" aria-hidden="true"></i>
-                            <a href="#"><h4>innovative</h4></a>
-                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam.</p>
+                            <a href="#"><h4>Инновационность</h4></a>
+                            <p>Мы стремимся к постоянному совершенствованию и внедрению новейших технологий, чтобы обеспечить нашим клиентам лучшие решения и качество услуг. Наша компания осуществляет постоянный мониторинг рынка и инновационных тенденций, чтобы быть на передовых позициях и предлагать инновационные проекты и решения. </p>
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-6">
                         <div class="f_content_item">
                             <i class="fa fa-building" aria-hidden="true"></i>
-                            <a href="#"><h4>first building</h4></a>
-                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam.</p>
+                            <a href="#"><h4>Пунктуальность</h4></a>
+                            <p>Пунктуальность - это основа нашего профессионализма и залог успешного выполнения каждого строительного проекта. Мы понимаем, что точность и своевременность важны для наших клиентов, поэтому мы уделяем особое внимание выполнению работ в оговоренные сроки.</p>
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-6">
                         <div class="f_content_item">
                             <i class="fa fa-money" aria-hidden="true"></i>
-                            <a href="#"><h4>save money</h4></a>
-                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam.</p>
+                            <a href="#"><h4>Выгодные условия</h4></a>
+                            <p>Выбирая нашу строительную компанию, вы получаете надежного партнера, готового реализовать ваши самые смелые идеи. Мы делаем строительство доступным и простым. Обращайтесь к нам и убедитесь сами в выгодных условиях сотрудничества</p>
                         </div>
                     </div>
                 </div>
@@ -269,8 +257,8 @@
                 <div class="row">
                     <div class="col-md-5">
                         <div class="b_companu_l_text">
-                            <h4>it’s One of the best company</h4>
-                            <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself.</p>
+                            <h4>МЫ - ОДНА ИЗ ЛУЧШИХ СТРОИТЕЛЬНЫХ КОМПАНИЙ</h4>
+                            <p>Мы являемся одной из лучших строительных компаний благодаря нашему богатому опыту, высокому профессионализму наших сотрудников и индивидуальному подходу к каждому проекту. Мы стремимся к высочайшему качеству выполнения работ, соблюдая сроки и бюджет, и всегда идем в ногу с новейшими технологиями и тенденциями в строительной отрасли. Наша репутация надежной и ответственной компании, способной реализовать даже самые сложные проекты, делает нас одними из лидеров в отрасли.</p>
                             <a class="slider_btn" href="#">read more</a>
                         </div>
                     </div>
@@ -288,8 +276,8 @@
         <section class="our_service_area2">
             <div class="container">
                 <div class="main_c_b_title">
-                    <h2>Our<br class="title_br">Services</h2>
-                    <h6>All About US</h6>
+                    <h2>Наши<br class="title_br">Услуги</h2>
+                    <h6>Всё о нас</h6>
                 </div>
                 <div class="row service2_inner">
                     <div class="col-md-4 col-sm-6">
@@ -297,10 +285,10 @@
                             <div class="service2_item_inner">
                                 <div class="service2_item_inner_content">
                                     <div class="service_icon">
-                                        <img src="{% static 'img/icon/s2-icon-1.png'%}" alt="">
-                                        <img src="{% static 'img/icon/s2-icon-hover-1.png'%}" alt="">
+                                        <img src="{% static 'img/icon/stroitelstvo.png'%}" alt="">
+                                        <img src="{% static 'img/icon/stroitelstvo.png'%}" alt="">
                                     </div>
-                                    <h4>NEW-CONSTRUCTION</h4>
+                                    <h4>СТРОИТЕЛЬСТВО ЖИЛЫХ ЗДАНИЙ</h4>
                                     <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem-que laudantium totam rem aperiam.</p>
                                     <a class="view_btn" href="#">Read Details</a>
                                 </div>
@@ -312,10 +300,10 @@
                             <div class="service2_item_inner">
                                 <div class="service2_item_inner_content">
                                     <div class="service_icon">
-                                        <img src="{% static 'img/icon/s2-icon-2.png'%}" alt="">
-                                        <img src="{% static 'img/icon/s2-icon-hover-2.png'%}" alt="">
+                                        <img src="{% static 'img/icon/Construction.png'%}" alt="">
+                                        <img src="{% static 'img/icon/Construction.png'%}" alt="">
                                     </div>
-                                    <h4>LOCATION</h4>
+                                    <h4>СТРОИТЕЛЬСТВО КОММЕРЧЕСКИХ ЗДАНИЙ</h4>
                                     <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem-que laudantium totam rem aperiam.</p>
                                     <a class="view_btn" href="#">Read Details</a>
                                 </div>
@@ -327,10 +315,10 @@
                             <div class="service2_item_inner">
                                 <div class="service2_item_inner_content">
                                     <div class="service_icon">
-                                        <img src="{% static 'img/icon/s2-icon-3.png'%}" alt="">
-                                        <img src="{% static 'img/icon/s2-icon-hover-3.png'%}" alt="">
+                                        <img src="{% static 'img/icon/Otdelka.png'%}" alt="">
+                                        <img src="{% static 'img/icon/Otdelka.png'%}" alt="">
                                     </div>
-                                    <h4>REMODEL & REIMAGE</h4>
+                                    <h4>ОТДЕЛОЧНЫЕ РАБОТЫ</h4>
                                     <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem-que laudantium totam rem aperiam.</p>
                                     <a class="view_btn" href="#">Read Details</a>
                                 </div>
@@ -342,10 +330,10 @@
                             <div class="service2_item_inner">
                                 <div class="service2_item_inner_content">
                                     <div class="service_icon">
-                                        <img src="{% static 'img/icon/s2-icon-4.png'%}" alt="">
-                                        <img src="{% static 'img/icon/s2-icon-hover-4.png'%}" alt="">
+                                        <img src="{% static 'img/icon/electric.jpg'%}" alt="">
+                                        <img src="{% static 'img/icon/electric.jpg'%}" alt="">
                                     </div>
-                                    <h4>Pre-CONSTRUCTION</h4>
+                                    <h4>Электрические работы</h4>
                                     <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem-que laudantium totam rem aperiam.</p>
                                     <a class="view_btn" href="#">Read Details</a>
                                 </div>
@@ -357,10 +345,10 @@
                             <div class="service2_item_inner">
                                 <div class="service2_item_inner_content">
                                     <div class="service_icon">
-                                        <img src="{% static 'img/icon/s2-icon-5.png'%}" alt="">
-                                        <img src="{% static 'img/icon/s2-icon-hover-5.png'%}" alt="">
+                                        <img src="{% static 'img/icon/industrial.png'%}" alt="">
+                                        <img src="{% static 'img/icon/industrial.png'%}" alt="">
                                     </div>
-                                    <h4>civil & architecture</h4>
+                                    <h4>ИНДУСТРИАЛЬНЫЕ РАБОТЫ</h4>
                                     <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem-que laudantium totam rem aperiam.</p>
                                     <a class="view_btn" href="#">Read Details</a>
                                 </div>
@@ -372,10 +360,10 @@
                             <div class="service2_item_inner">
                                 <div class="service2_item_inner_content">
                                     <div class="service_icon">
-                                        <img src="{% static 'img/icon/s2-icon-6.png'%}" alt="">
-                                        <img src="{% static 'img/icon/s2-icon-hover-6.png'%}" alt="">
+                                        <img src="{% static 'img/icon/Vodoochistnie.png'%}" alt="">
+                                        <img src="{% static 'img/icon/Vodoochistnie.png'%}" alt="">
                                     </div>
-                                    <h4>engineering</h4>
+                                    <h4>Водоочистные работы</h4>
                                     <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem-que laudantium totam rem aperiam.</p>
                                     <a class="view_btn" href="#">Read Details</a>
                                 </div>
@@ -391,28 +379,30 @@
         <section class="our_project2_area">
             <div class="container">
                 <div class="main_c_b_title">
-                    <h2>Our<br class="title_br">Projects</h2>
-                    <h6>Great & Awesome Works</h6>
+                    <h2>Наши<br class="title_br">Проекты</h2>
+<!--                    <h6>Great & Awesome Works</h6>-->
                 </div>
-                <ul class="our_project_filter">
-                    <li class="active" data-filter="*"><a href="#">All</a></li>
-                    <li data-filter=".building"><a href="#">Buildings</a></li>
-                    <li data-filter=".interior"><a href="#">Interior</a></li>
-                    <li data-filter=".design"><a href="#">Design</a></li>
-                    <li data-filter=".isolation"><a href="#">Isolation</a></li>
-                    <li data-filter=".plumbing"><a href="#">Plumbing</a></li>
-                    <li data-filter=".tiling"><a href="#">Tiling</a></li>
-                </ul>
+<!--                <ul class="our_project_filter">-->
+<!--                    <li class="active" data-filter="*"><a href="#">Все</a></li>-->
+<!--                    <li data-filter=".building"><a href="#">Индустриальные</a></li>-->
+<!--                    <li data-filter=".interior"><a href="#">Жилищные</a></li>-->
+<!--                    <li data-filter=".design"><a href="#">Водоочистные</a></li>-->
+<!--                    <li data-filter=".isolation"><a href="#">Коммерческие</a></li>-->
+<!--                    <li data-filter=".plumbing"><a href="#">Электрические</a></li>-->
+<!--&lt;!&ndash;                    <li data-filter=".tiling"><a href="#">Tiling</a></li>&ndash;&gt;-->
+<!--                </ul>-->
                 <div class="row our_project_details">
                     <div class="col-md-4 col-sm-6 building isolation interior">
                         <div class="project_item">
-                            <img src="{% static 'img/project/project-2/project-1.jpg'%}" alt="">
+                            <img src="{% static 'img/project/project-two-column/Тюльпан.jpg'%}" alt="">
                             <div class="project_hover">
                                 <div class="project_hover_inner">
                                     <div class="project_hover_content">
-                                        <a href="#"><h4>Jahanara Vila</h4></a>
-                                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium </p>
-                                        <a class="view_btn" href="#">View Project</a>
+                                        <a href="#"><h4>Жилой дом "Тюльпан"</h4></a>
+                                        <p>Площадь проведения строительных работ: 32.000 м<sup>2</sup>
+                                        Коммерческая площадь: 1700 м<sup>2</sup>
+                                        Этажи : UG + 18 этажей</p>
+<!--                                        <a class="view_btn" href="#">View Project</a>-->
                                     </div>
                                 </div>
                             </div>
@@ -420,13 +410,16 @@
                     </div>
                     <div class="col-md-4 col-sm-6 building isolation tiling design">
                         <div class="project_item">
-                            <img src="{% static 'img/project/project-2/project-2.jpg'%}" alt="">
+                            <img src="{% static 'img/project/project-two-column/Бразда_Вилла.jpg'%}" alt="">
                             <div class="project_hover">
                                 <div class="project_hover_inner">
                                     <div class="project_hover_content">
-                                        <a href="#"><h4>Jahanara Vila</h4></a>
-                                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium </p>
-                                        <a class="view_btn" href="#">View Project</a>
+                                        <a href="#"><h4>Жилой дом «Бразда Вилла»</h4></a>
+                                        <p>Площадь проведения строительных работ: 2.000 м<sup>2</sup>
+                                            <br>Количество квартир: 20
+                                            <br>Этажи: Подвал + 4 Этажа
+                                        </p>
+<!--                                        <a class="view_btn" href="#">View Project</a>-->
                                     </div>
                                 </div>
                             </div>
@@ -434,13 +427,13 @@
                     </div>
                     <div class="col-md-4 col-sm-6 isolation tiling interior design plumbing">
                         <div class="project_item">
-                            <img src="{% static 'img/project/project-2/project-3.jpg'%}" alt="">
+                            <img src="{% static 'img/project/project-two-column/Водоочистка.jpg'%}" alt="">
                             <div class="project_hover">
                                 <div class="project_hover_inner">
                                     <div class="project_hover_content">
-                                        <a href="#"><h4>Jahanara Vila</h4></a>
-                                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium </p>
-                                        <a class="view_btn" href="#">View Project</a>
+                                        <a href="#"><h4>Водоочистная станция в г.Сибиу, Румыния</h4></a>
+                                        <p>Сроки работы: январь 2006-июль 2007</p>
+<!--                                        <a class="view_btn" href="#">View Project</a>-->
                                     </div>
                                 </div>
                             </div>
@@ -448,12 +441,12 @@
                     </div>
                     <div class="col-md-4 col-sm-6 building isolation tiling plumbing">
                         <div class="project_item">
-                            <img src="{% static 'img/project/project-2/project-4.jpg'%}" alt="">
+                            <img src="{% static 'img/project/project-two-column/август.jpg'%}" alt="">
                             <div class="project_hover">
                                 <div class="project_hover_inner">
                                     <div class="project_hover_content">
-                                        <a href="#"><h4>Jahanara Vila</h4></a>
-                                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium </p>
+                                        <a href="#"><h4>Август-Алабуга</h4></a>
+                                        <p>Сроки работы: 01.05.2017-31.08.2018 <br>Объём бетона: 4500 м<sup>3</sup></p>
                                         <a class="view_btn" href="#">View Project</a>
                                     </div>
                                 </div>
@@ -462,13 +455,16 @@
                     </div>
                     <div class="col-md-4 col-sm-6 isolation tiling interior plumbing">
                         <div class="project_item">
-                            <img src="{% static 'img/project/project-2/project-5.jpg' %}" alt="">
+                            <img src="{% static 'img/project/project-two-column/Офисное_здание_MultiGalaxy.png' %}" alt="">
                             <div class="project_hover">
                                 <div class="project_hover_inner">
                                     <div class="project_hover_content">
-                                        <a href="#"><h4>Jahanara Vila</h4></a>
-                                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium </p>
-                                        <a class="view_btn" href="#">View Project</a>
+                                        <a href="#"><h4>Офисное здание "MultiGalaxy"</h4></a>
+                                        <p>Сроки работы: 02.04.2007-15.06.2008
+                                            <br>Площадь проведения строительных работ: 20.000 м<sup>2</sup>
+                                            <br>Объём бетона: 11.000 м<sup>3</sup>
+                                        </p>
+<!--                                        <a class="view_btn" href="#">View Project</a>-->
                                     </div>
                                 </div>
                             </div>
@@ -476,13 +472,13 @@
                     </div>
                     <div class="col-md-4 col-sm-6 building isolation tiling design plumbing">
                         <div class="project_item">
-                            <img src="{% static 'img/project/project-2/project-6.jpg' %}" alt="">
+                            <img src="{% static 'img/project/project-two-column/кастамону.png' %}" alt="">
                             <div class="project_hover">
                                 <div class="project_hover_inner">
                                     <div class="project_hover_content">
-                                        <a href="#"><h4>Jahanara Vila</h4></a>
-                                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium </p>
-                                        <a class="view_btn" href="#">View Project</a>
+                                        <a href="#"><h4>Kastamonu Entegre Russia</h4></a>
+                                        <p>Объект : 125.000 м<sup>2</sup></p>
+<!--                                        <a class="view_btn" href="#">View Project</a>-->
                                     </div>
                                 </div>
                             </div>
@@ -500,22 +496,22 @@
                     <div class="quoto_slider owl-carousel">
                         <div class="item">
                             <i class="fa fa-quote-left" aria-hidden="true"></i>
-                            <h4><span>weBuilder </span>theme one of the best for constraction website</h4>
-                            <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings.</p>
-                            <h3>--  WeBuilder, CEO, WeBuilder</h3>
+<!--                            <h4><span>weBuilder </span>theme one of the best for constraction website</h4>-->
+                            <p>Наша строительная компания стремится к совершенству в каждом проекте, чтобы создавать не просто здания, а истинные шедевры архитектуры. Мы гордимся своей командой профессионалов, которые делают невозможное возможным. Для нас каждый дом,каждое здание – это не просто строение, а воплощение мечты, которая становится реальностью благодаря нашему труду и преданности качеству. Добро пожаловать в мир, где каждая кирпичная стена несет в себе частицу нашего сердца.</p>
+                            <h3>--  Генеральный директор ООО "ТехСтрой"</h3>
                         </div>
                         <div class="item">
                             <i class="fa fa-quote-left" aria-hidden="true"></i>
-                            <h4><span>weBuilder </span>theme one of the best for constraction website</h4>
-                            <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings.</p>
-                            <h3>--  WeBuilder, CEO, WeBuilder</h3>
+<!--                            <h4><span>weBuilder </span>theme one of the best for constraction website</h4>-->
+                            <p>Эта строительная компания – мой надежный партнер в каждом проекте. Здесь ценят мою работу, поддерживают в трудные моменты и всегда готовы идти на встречу. С ними я уверен в качестве и надежности каждого строительного объекта. Это не просто работа, это сотрудничество, которое приносит результаты, о которых можно гордиться.</p>
+                            <h3>--  Строитель ООО "ТехСтрой"</h3>
                         </div>
-                        <div class="item">
-                            <i class="fa fa-quote-left" aria-hidden="true"></i>
-                            <h4><span>weBuilder </span>theme one of the best for constraction website</h4>
-                            <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings.</p>
-                            <h3>--  WeBuilder, CEO, WeBuilder</h3>
-                        </div>
+<!--                        <div class="item">-->
+<!--                            <i class="fa fa-quote-left" aria-hidden="true"></i>-->
+<!--                            <h4><span>weBuilder </span>theme one of the best for constraction website</h4>-->
+<!--                            <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings.</p>-->
+<!--                            <h3>&#45;&#45;  WeBuilder, CEO, WeBuilder</h3>-->
+<!--                        </div>-->
                     </div>
                 </div>
             </div>
@@ -588,82 +584,82 @@
         <!--================End Our Team2 Area =================-->
 
         <!--================Latest News Area =================-->
-        <section class="latest_news_area">
-            <div class="container">
-                <div class="main_c_b_title">
-                    <h2>latest <br class="title_br" />news</h2>
-                    <h6>Construction World</h6>
-                </div>
-                <div class="row latest_news_inner">
-                    <div class="col-md-4 col-sm-6">
-                        <div class="latest_news_item">
-                            <div class="news_image">
-                                <img src="{% static 'img/blog/l-news/l-news-1.jpg'%}" alt="">
-                                <div class="l_date">
-                                    <h5>14</h5>
-                                    <h6>Aug</h6>
-                                </div>
-                            </div>
-                            <div class="news_content">
-                                <a href="#"><h4>The Road To Success Is Always Under Construction</h4></a>
-                                <h6>Posted By <a href="#">Admin</a></h6>
-                                <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
-                                <div class="pull-left">
-                                    <a href="#">2 Comments</a>
-                                </div>
-                                <div class="pull-right">
-                                    <a href="#">Read More <i class="fa fa-angle-right" aria-hidden="true"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6">
-                        <div class="latest_news_item">
-                            <div class="news_image">
-                                <img src="{% static 'img/blog/l-news/l-news-2.jpg'%}" alt="">
-                                <div class="l_date">
-                                    <h5>14</h5>
-                                    <h6>Aug</h6>
-                                </div>
-                            </div>
-                            <div class="news_content">
-                                <a href="#"><h4>The Road To Success Is Always Under Construction</h4></a>
-                                <h6>Posted By <a href="#">Admin</a></h6>
-                                <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
-                                <div class="pull-left">
-                                    <a href="#">2 Comments</a>
-                                </div>
-                                <div class="pull-right">
-                                    <a href="#">Read More <i class="fa fa-angle-right" aria-hidden="true"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6">
-                        <div class="latest_news_item">
-                            <div class="news_image">
-                                <img src="{% static 'img/blog/l-news/l-news-3.jpg'%}" alt="">
-                                <div class="l_date">
-                                    <h5>14</h5>
-                                    <h6>Aug</h6>
-                                </div>
-                            </div>
-                            <div class="news_content">
-                                <a href="#"><h4>The Road To Success Is Always Under Construction</h4></a>
-                                <h6>Posted By <a href="#">Admin</a></h6>
-                                <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
-                                <div class="pull-left">
-                                    <a href="#">2 Comments</a>
-                                </div>
-                                <div class="pull-right">
-                                    <a href="#">Read More <i class="fa fa-angle-right" aria-hidden="true"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+<!--        <section class="latest_news_area">-->
+<!--            <div class="container">-->
+<!--                <div class="main_c_b_title">-->
+<!--                    <h2>latest <br class="title_br" />news</h2>-->
+<!--                    <h6>Construction World</h6>-->
+<!--                </div>-->
+<!--                <div class="row latest_news_inner">-->
+<!--                    <div class="col-md-4 col-sm-6">-->
+<!--                        <div class="latest_news_item">-->
+<!--                            <div class="news_image">-->
+<!--                                <img src="{% static 'img/blog/l-news/l-news-1.jpg'%}" alt="">-->
+<!--                                <div class="l_date">-->
+<!--                                    <h5>14</h5>-->
+<!--                                    <h6>Aug</h6>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                            <div class="news_content">-->
+<!--                                <a href="#"><h4>The Road To Success Is Always Under Construction</h4></a>-->
+<!--                                <h6>Posted By <a href="#">Admin</a></h6>-->
+<!--                                <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>-->
+<!--                                <div class="pull-left">-->
+<!--                                    <a href="#">2 Comments</a>-->
+<!--                                </div>-->
+<!--                                <div class="pull-right">-->
+<!--                                    <a href="#">Read More <i class="fa fa-angle-right" aria-hidden="true"></i></a>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    <div class="col-md-4 col-sm-6">-->
+<!--                        <div class="latest_news_item">-->
+<!--                            <div class="news_image">-->
+<!--                                <img src="{% static 'img/blog/l-news/l-news-2.jpg'%}" alt="">-->
+<!--                                <div class="l_date">-->
+<!--                                    <h5>14</h5>-->
+<!--                                    <h6>Aug</h6>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                            <div class="news_content">-->
+<!--                                <a href="#"><h4>The Road To Success Is Always Under Construction</h4></a>-->
+<!--                                <h6>Posted By <a href="#">Admin</a></h6>-->
+<!--                                <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>-->
+<!--                                <div class="pull-left">-->
+<!--                                    <a href="#">2 Comments</a>-->
+<!--                                </div>-->
+<!--                                <div class="pull-right">-->
+<!--                                    <a href="#">Read More <i class="fa fa-angle-right" aria-hidden="true"></i></a>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    <div class="col-md-4 col-sm-6">-->
+<!--                        <div class="latest_news_item">-->
+<!--                            <div class="news_image">-->
+<!--                                <img src="{% static 'img/blog/l-news/l-news-3.jpg'%}" alt="">-->
+<!--                                <div class="l_date">-->
+<!--                                    <h5>14</h5>-->
+<!--                                    <h6>Aug</h6>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                            <div class="news_content">-->
+<!--                                <a href="#"><h4>The Road To Success Is Always Under Construction</h4></a>-->
+<!--                                <h6>Posted By <a href="#">Admin</a></h6>-->
+<!--                                <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>-->
+<!--                                <div class="pull-left">-->
+<!--                                    <a href="#">2 Comments</a>-->
+<!--                                </div>-->
+<!--                                <div class="pull-right">-->
+<!--                                    <a href="#">Read More <i class="fa fa-angle-right" aria-hidden="true"></i></a>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </section>-->
         <!--================End Latest News Area =================-->
 
         <!--================Clients Area =================-->
