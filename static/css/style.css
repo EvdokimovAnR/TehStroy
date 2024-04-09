@@ -164,18 +164,10 @@ iframe {
   text-transform: uppercase;
   position: relative;
   z-index: 2;
+
+
 }
 
-.main_b_title h2:before {
-  content: "";
-  width: 170px;
-  height: 100px;
-  border: 6px solid #292c31;
-  position: absolute;
-  left: 47px;
-  bottom: 10px;
-  z-index: -1;
-}
 
 .main_b_title h6 {
   font-size: 15px;
@@ -349,11 +341,11 @@ iframe {
 }
 
 .main_header_area.navbar_fixed .main_menu_area .navbar.navbar-default .nav.navbar-nav.navbar-right li a {
-  color: #0891a4;
+  color:black;
 }
 
 .main_header_area.navbar_fixed .main_menu_area .navbar.navbar-default .nav.navbar-nav.navbar-right li.active a {
-  color: #0891a4;
+  color:#10afc5;
 }
 
 .header_top_area {
@@ -466,7 +458,7 @@ iframe {
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
   text-transform: uppercase;
-  color: #31353d;
+  color: black;
   line-height: 100px;
   -webkit-transition: all 400ms linear 0s;
   -o-transition: all 400ms linear 0s;
@@ -502,7 +494,7 @@ iframe {
 }
 
 .main_menu_area .navbar.navbar-default .nav.navbar-nav.navbar-right li:hover a, .main_menu_area .navbar.navbar-default .nav.navbar-nav.navbar-right li.active a {
-  color: #ffcd00;
+  color: #10afc5;
 }
 
 .main_menu_area .navbar.navbar-default .nav.navbar-nav.navbar-right li.submenu {
@@ -598,7 +590,7 @@ iframe {
 }
 
 .transparent_menu .main_menu_area .navbar.navbar-default .nav.navbar-nav.navbar-right li:hover > a, .transparent_menu .main_menu_area .navbar.navbar-default .nav.navbar-nav.navbar-right li.active > a {
-  color: #0891a4;
+  color:#10afc5;
 }
 
 .transparent_menu + section, .transparent_menu + div, .transparent_menu + .row {
@@ -1401,16 +1393,18 @@ iframe {
 .chose_video_area {
   overflow: hidden;
   background: #1e2126;
+   margin: 40px;
 }
 
 .chose_video_area .chose_left_text {
   width: calc(50% + 15px);
   float: left;
   overflow: hidden;
+
 }
 
 .chose_video_area .chose_left_text .chose_text_inner {
-  max-width: 505px;
+  max-width: 670px;
   float: right;
 }
 
@@ -1426,6 +1420,8 @@ iframe {
 
 .chose_text_inner .main_b_title {
   margin-top: 100px;
+  text-align: center;
+
 }
 
 .chose_text_inner p {
@@ -1434,11 +1430,15 @@ iframe {
   line-height: 26px;
   color: #e8e8e8;
   padding: 25px 0px 15px 0px;
+  text-align: justify;
 }
-
+.fa-check {
+    color: green; /* Зеленый цвет */
+}
 .chose_text_inner ul {
-  border-bottom: 1px solid #ffcd00;
+  border-bottom: 1px solid white;
   padding-bottom: 45px;
+
 }
 
 .chose_text_inner ul li {
@@ -2226,6 +2226,7 @@ iframe {
 .counter_area {
   background: #31353d;
   padding: 40px 0px;
+  margin-bottom: 3px;
 }
 
 .counter_item {
@@ -3589,7 +3590,8 @@ iframe {
 }
 
 .our_project2_area.our_project_two_column .our_project_details .col-md-6 {
-  padding: 0px;
+  padding: 8px;
+  border: 2px solid #d4d4d4;
 }
 
 .our_project2_area.our_project_two_column .our_project_details .project_item .project_hover .project_hover_inner .project_hover_content {
