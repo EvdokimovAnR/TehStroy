@@ -1666,14 +1666,18 @@ iframe {
 }
 
 .service2_inner .service2_item {
-  height: 420px;
+  max-height: 630px;
 }
 
 .service2_inner .service2_item .service2_item_inner {
   text-align: center;
   background: #fff;
-  padding: 45px 20px 16px 20px;
-  min-height: 304px;
+  padding-top: 25px;
+  padding-right: 7px;
+  padding-bottom: 5px;
+  padding-left: 7px;
+  min-height: 300px;
+  max-height: 605px;
   -webkit-transition: all 400ms linear 0s;
   -o-transition: all 400ms linear 0s;
   transition: all 400ms linear 0s;
@@ -1712,6 +1716,7 @@ iframe {
   -webkit-transition: all 200ms linear;
   -o-transition: all 200ms linear;
   transition: all 200ms linear;
+
 }
 
 .service2_inner .service2_item .service2_item_inner .view_btn {
