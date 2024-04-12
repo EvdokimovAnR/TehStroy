@@ -316,7 +316,7 @@ iframe {
 }
 
 .main_header_area + section, .main_header_area + div, .main_header_area + .row {
-  margin-top: 152px;
+    margin-top: 152px;
 }
 
 .main_header_area.navbar_fixed .main_menu_area {
@@ -350,6 +350,7 @@ iframe {
 
 .header_top_area {
   background: #1e2126;
+
 }
 
 .header_top_area .pull-left a {
@@ -379,7 +380,7 @@ iframe {
 }
 
 .header_top_area .pull-left a:first-child {
-  margin-left: 40px;
+  margin-left: 220px;
 }
 
 .header_top_area .pull-left a:first-child:before {
@@ -421,10 +422,13 @@ iframe {
 .header_social li:hover a {
   color: #00aced;
 }
-
+.line_bottom {
+    border-bottom: 1px solid grey;
+}
 .main_menu_area {
   background: #fff;
   z-index: 30;
+
 }
 
 .main_menu_area .navbar.navbar-default {
@@ -1777,8 +1781,8 @@ iframe {
 }
 
 .other_service_area .other_service_slider .owl-prev:hover, .other_service_area .other_service_slider .owl-next:hover {
-  border-color: #ffcd00;
-  background: #ffcd00;
+  border-color: black;
+  background: #0891a4;
   color: #fff;
 }
 
@@ -1815,7 +1819,7 @@ iframe {
 
 .left_service_desc ul li a i {
   padding-right: 7px;
-  color: #ffcd00;
+  color: #0891a4;
 }
 
 .our_skill_inner .project_title {
@@ -1844,7 +1848,7 @@ iframe {
 }
 
 .our_skill_inner .single_skill .progress .progress-bar {
-  background: #ffcd00;
+  background: #0891a4;
   border-radius: 4px;
   border: none;
   -webkit-box-shadow: none;
@@ -1892,7 +1896,7 @@ iframe {
 
 .service_brochure a i {
   padding-right: 13px;
-  color: #ffcd00;
+  color: #0891a4;
   font-size: 25px;
   vertical-align: middle;
   line-height: 34px;
@@ -3138,6 +3142,7 @@ iframe {
   position: relative;
   z-index: 3;
   padding: 90px 0px 80px 0px;
+  height: 220px;
 }
 
 .banner_area:before {
@@ -3252,7 +3257,7 @@ iframe {
 
 .our_project_details .project_item .project_hover .project_hover_inner {
   height: 100%;
-  border: 2px solid rgba(255, 205, 0, 0.8);
+  border: 2px solid white;
   position: relative;
 }
 
@@ -3315,7 +3320,7 @@ iframe {
 }
 
 .our_project_details .project_item:hover .project_hover .project_hover_inner {
-  background:#0891a4ba;
+  background: #808080c2;
 }
 
 .our_project_details .project_item:hover .project_hover .project_hover_inner h4 {
@@ -3596,7 +3601,7 @@ iframe {
 
 .our_project2_area.our_project_two_column .our_project_details .col-md-6 {
   padding: 8px;
-  border: 2px solid #d4d4d4;
+  border: 2px solid white;
 }
 
 .our_project2_area.our_project_two_column .our_project_details .project_item .project_hover .project_hover_inner .project_hover_content {
@@ -3610,7 +3615,7 @@ iframe {
 
 .our_project2_area.our_project_two_column .our_project_details .project_item .project_hover .project_hover_inner .project_hover_content p {
   font-size: 18px;
-  color: #444444;
+  color: white;
   line-height: 26px;
   padding: 25px 0px 45px 0px;
 }
@@ -3763,7 +3768,7 @@ iframe {
   text-transform: uppercase;
   font-family: "PT Sans", sans-serif;
   font-weight: bold;
-  color: #ffcd00;
+  color: #e8e8e8;
 }
 
 .about_widget p {
