@@ -609,6 +609,11 @@ iframe {
 ============================================================================================ */
 .main_slider_area .rev_slider .tp-revslider-mainul li .slotholder {
   position: relative;
+  background-color: rgba(41, 41, 41, 0.5) !important;
+
+}
+#main_slider {
+    background: transparent;
 }
 
 .main_slider_area .rev_slider .tp-revslider-mainul li .slotholder:before {
@@ -620,10 +625,13 @@ iframe {
   top: 0px;
   height: 100%;
   width: 100%;
+
+
 }
 
 .main_slider_area .rev_slider .tp-revslider-mainul li .slotholder .tp-bgimg {
   z-index: 5 !important;
+
 }
 
 .main_slider_area .rev_slider .tp-revslider-mainul li .slider_text_box .first_text {
@@ -652,6 +660,7 @@ iframe {
 
 .main_slider_area .rev_slider .tp-bullets {
   z-index: 20 !important;
+
 }
 
 .main_slider_area .rev_slider .tp-bullets .tp-bullet {
@@ -665,7 +674,7 @@ iframe {
 
 .main_slider_area .rev_slider .tp-bullets .tp-bullet:hover, .main_slider_area .rev_slider .tp-bullets .tp-bullet.selected {
   width: 110px;
-  background: #ffcd00;
+  background: #0891a4;
 }
 
 /* End Main Slider area css
@@ -1863,8 +1872,11 @@ iframe {
   font-size: 14px;
   color: #444444;
   font-family: "Open Sans", sans-serif;
-}
 
+}
+.margin_bottom{
+    margin-bottom: 15px;
+}
 .our_skill_inner .single_skill:last-child {
   margin-bottom: 0px;
 }
@@ -3323,6 +3335,7 @@ iframe {
   background: #808080c2;
 }
 
+
 .our_project_details .project_item:hover .project_hover .project_hover_inner h4 {
   opacity: 1;
   -webkit-transform: translateY(0);
@@ -3360,7 +3373,7 @@ iframe {
 
 .project_item .project_hover .project_hover_inner {
   height: 100%;
-  border: 2px solid rgba(255, 205, 0, 0.8);
+  border: 2px solid white;
   position: relative;
 }
 
@@ -3398,7 +3411,7 @@ iframe {
 
 .project_item .project_hover .project_hover_inner .project_hover_content p {
   font-size: 12px;
-  color: #31353d;
+  color: white;
   font-family: "Montserrat", sans-serif;
   line-height: 22px;
   padding: 15px 0px 25px 0px;
@@ -3423,7 +3436,7 @@ iframe {
 }
 
 .project_item:hover .project_hover .project_hover_inner {
-  background: rgba(255, 205, 0, 0.8);
+  background:#6f6f6fb5;
 }
 
 .project_item:hover .project_hover .project_hover_inner h4 {
@@ -3531,6 +3544,7 @@ iframe {
 ============================================================================================ */
 .our_project2_area {
   padding: 100px 0px 65px 0px;
+  background-color:#eceaea;
 }
 
 .our_project2_area .main_c_b_title {
@@ -3899,7 +3913,49 @@ iframe {
 .footer_menu li:hover a, .footer_menu li.active a {
   color: #ffcd00;
 }
-
+.footer-heading {
+    font-size: 18px;
+    margin-bottom: 30px;
+    font-weight: 600;
+    color: #fff;
+}
+.contact-form {
+    width: 75%;
+    max-width: 100%; }
+    .footer .contact-form .form-control {
+      height: 44px !important;
+      background: #fff;
+      color: rgba(0, 0, 0, 0.3);
+      font-size: 14px;
+      border-radius: 5px;
+      -webkit-box-shadow: none;
+      box-shadow: none;
+      border: none; }
+      .footer .contact-form .form-control::-webkit-input-placeholder {
+        /* Chrome/Opera/Safari */
+        color: rgba(0, 0, 0, 0.3) !important; }
+      .footer .contact-form .form-control::-moz-placeholder {
+        /* Firefox 19+ */
+        color: rgba(0, 0, 0, 0.3) !important; }
+      .footer .contact-form .form-control:-ms-input-placeholder {
+        /* IE 10+ */
+        color: rgba(0, 0, 0, 0.3) !important; }
+      .footer .contact-form .form-control:-moz-placeholder {
+        /* Firefox 18- */
+        color: rgba(0, 0, 0, 0.3) !important; }
+      .footer .contact-form .form-control:focus {
+        outline: none !important;
+        -webkit-box-shadow: none;
+        box-shadow: none; }
+      .footer .contact-form .form-control:focus, .footer .contact-form .form-control:active {
+        outline: none !important;
+        -webkit-box-shadow: none;
+        box-shadow: none; }
+    .footer .contact-form .submit {
+      background: #fdbe34 !important;
+      color: #000000; }
+    .footer .contact-form textarea.form-control {
+      height: inherit !important; }
 /* End Footer area css
 ============================================================================================ */
 /*---------------------------------------------------- */

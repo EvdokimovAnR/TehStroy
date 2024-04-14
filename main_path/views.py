@@ -11,3 +11,6 @@ def projects(request):
 
 def services(request):
     return render(request, 'main_path/services.html')
+
+def contacts(request):
+    return render(request, 'main_path/contacts.html')
