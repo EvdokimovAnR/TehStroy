@@ -48,14 +48,6 @@
                         <a><i class="fa fa-map-marker"></i>423602, Татарстан, Елабуга, Проспект мира 30, кв. 139</a>
                         <a><i class="mdi mdi-clock"></i>8:00 - 19:00</a>
                     </div>
-<!--                    <div class="pull-right">-->
-<!--                        <ul class="header_social">-->
-<!--                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>-->
-<!--                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>-->
-<!--                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>-->
-<!--                            <li><a href="#"><i class="fa fa-pinterest"></i></a></li>-->
-<!--                        </ul>-->
-<!--                    </div>-->
                 </div>
             </div>
             <div class="main_menu_area">
@@ -83,7 +75,7 @@
                                     <a href="{% url 'projects'%}">Проекты</a>
                                 </li>
                                 <li><a href="{% url 'services'%}">Услуги</a></li>
-                                <li><a href="">О нас</a></li>
+                                <li><a href="{% url 'about'%}">О нас</a></li>
 <!--                                <li><a href="blog-details.html">blog</a></li>-->
                                 <li><a href="{% url 'contacts'%}">Контакты</a></li>
 <!--                                <li class="icon_search"><a href="#"><i class="mdi mdi-cart"></i></a></li>-->
@@ -114,7 +106,10 @@
         <section class="our_project2_area our_project_two_column">
             <div class="main_c_b_title">
                 <h2>Наши<br class="title_br">Проекты</h2>
-                <h6>Великие и потрясающие работы</h6>
+                <br>
+                <br>
+                <h3>ЖИЛИЩНЫЕ ПРОЕКТЫ</h3 >
+
             </div>
 <!--            <ul class="our_project_filter">-->
 <!--                <li class="active" data-filter="*"><a href="#">All</a></li>-->
@@ -142,9 +137,83 @@
                         </div>
                     </div>
                 </div>
+                <div class="col-md-6 building isolation interior">
+                    <div class="project_item">
+                        <img src="{% static 'img/project/project-two-column/Werland_800_550.jpg'%}" alt="">
+                        <div class="project_hover">
+                            <div class="project_hover_inner">
+                                <div class="project_hover_content">
+                                    <a href="#"><h4>Жилой дом <br>«Бразда Вилла»</h4></a>
+                                    <p>Площадь проведения строительных работ: 2.000 м<sup>2</sup>
+                                            <br>Количество квартир: 20
+                                            <br>Этажи: Подвал + 4 Этажа
+                                        </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+               <div class="col-md-6 isolation tiling interior plumbing">
+                    <div class="project_item">
+                        <img src="{% static 'img/project/project-two-column/Эмералд_800_550.jpg'%}" alt="">
+                        <div class="project_hover">
+                            <div class="project_hover_inner">
+                                <div class="project_hover_content">
+                                    <a><h4>Жилые дома «Эмералд»</h4></a>
+                                    <p> Инвестор: Brookline Investments
+                                            <br>Площадь проведения строительных работ: 25.000 м<sup>2</sup>
+                                            <br>Объём бетона: 18.900 м<sup>3</sup>
+                                        <br>7 подъездов
+                                        </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                 <div class="col-md-6 building isolation tiling plumbing">
+                    <div class="project_item">
+                        <img src="{% static 'img/project/project-two-column/ЖД_Билла_800_550.png'%}" alt="">
+                        <div class="project_hover">
+                            <div class="project_hover_inner">
+                                <div class="project_hover_content">
+                                    <a><h4>Jahanara Vila</h4></a>
+                                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                                    <a class="view_btn" href="#">View Project</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 isolation tiling interior plumbing">
+                    <div class="project_item">
+                        <img src="{% static 'img/project/project-two-column/Тюльпан.jpg'%}" alt="">
+                        <div class="project_hover">
+                            <div class="project_hover_inner">
+                                <div class="project_hover_content">
+                                    <a><h4>Жилые дома «Эмералд»</h4></a>
+                                    <p> Инвестор: Brookline Investments
+                                            <br>Площадь проведения строительных работ: 25.000 м<sup>2</sup>
+                                            <br>Объём бетона: 18.900 м<sup>3</sup>
+                                        <br>7 подъездов
+                                        </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+
+        <section class="our_project2_area our_project_two_column">
+            <div class="main_c_b_title">
+                <h3>КОММЕРЧЕСКИЕ ПРОЕКТЫ</h3 >
+            </div>
+            <div class="our_project_details">
                 <div class="col-md-6 building isolation tiling design">
                     <div class="project_item">
-                        <img src="{% static 'img/project/project-two-column/Офисное_здание_MultiGalaxy_800_550.png'%}" alt="">
+                        <img src="{% static 'img/project/project-two-column/Multigalaxy.jpg'%}" alt="">
                         <div class="project_hover">
                             <div class="project_hover_inner">
                                 <div class="project_hover_content">
@@ -152,6 +221,65 @@
                                         <p>Сроки работы: 02.04.2007-15.06.2008
                                             <br>Площадь проведения строительных работ: 20.000 м<sup>2</sup>
                                             <br>Объём бетона: 11.000 м<sup>3</sup>
+                                        </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                 <div class="col-md-6 building isolation tiling design">
+                    <div class="project_item">
+                        <img src="{% static 'img/project/project-two-column/Rexton.png'%}" alt="">
+                        <div class="project_hover">
+                            <div class="project_hover_inner">
+                                <div class="project_hover_content">
+                                    <a><h4>Офисное здание "MultiGalaxy"</h4></a>
+                                        <p>Сроки работы: 02.04.2007-15.06.2008
+                                            <br>Площадь проведения строительных работ: 20.000 м<sup>2</sup>
+                                            <br>Объём бетона: 11.000 м<sup>3</sup>
+                                        </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+
+        <section class="our_project2_area our_project_two_column">
+            <div class="main_c_b_title">
+                <h3>ВОДООЧИСТНЫЕ СТАНЦИИ</h3 >
+            </div>
+
+            <div class="our_project_details">
+                <div class="col-md-6 building isolation tiling design plumbing">
+                    <div class="project_item">
+                        <img src="{% static 'img/project/project-two-column/Водоочистная_кайсери_800_550.jpg'%}" alt="">
+                        <div class="project_hover">
+                            <div class="project_hover_inner">
+                                <div class="project_hover_content">
+                                    <a href="#"><h4>Водоочистная станция в г. Кайсери, Турция</h4></a>
+                                    <p>
+                                            <br>Дата подписания контракта: 2006
+                                            <br>Дата окончания контракта: 2007
+                                        </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                 <div class="col-md-6 building isolation tiling design plumbing">
+                    <div class="project_item">
+                        <img src="{% static 'img/project/project-two-column/Станция_Крайова.jpg'%}" alt="">
+                        <div class="project_hover">
+                            <div class="project_hover_inner">
+                                <div class="project_hover_content">
+                                    <a href="#"><h4>Водоочистная станция в г. Кайсери, Турция</h4></a>
+                                    <p>
+                                            <br>Дата подписания контракта: 2006
+                                            <br>Дата окончания контракта: 2007
                                         </p>
                                 </div>
                             </div>
@@ -175,53 +303,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 building isolation tiling plumbing">
-                    <div class="project_item">
-                        <img src="{% static 'img/project/project-two-column/ЖД_Билла_800_550.jpg'%}" alt="">
-                        <div class="project_hover">
-                            <div class="project_hover_inner">
-                                <div class="project_hover_content">
-                                    <a><h4>Jahanara Vila</h4></a>
-                                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-                                    <a class="view_btn" href="#">View Project</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 isolation tiling interior plumbing">
-                    <div class="project_item">
-                        <img src="{% static 'img/project/project-two-column/Эмералд_800_550.jpg'%}" alt="">
-                        <div class="project_hover">
-                            <div class="project_hover_inner">
-                                <div class="project_hover_content">
-                                    <a><h4>Жилые дома «Эмералд»</h4></a>
-                                    <p> Инвестор: Brookline Investments
-                                            <br>Площадь проведения строительных работ: 25.000 м<sup>2</sup>
-                                            <br>Объём бетона: 18.900 м<sup>3</sup>
-                                        <br>7 подъездов
-                                        </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 building isolation tiling design plumbing">
-                    <div class="project_item">
-                        <img src="{% static 'img/project/project-two-column/Водоочистная_кайсери_800_550.jpg'%}" alt="">
-                        <div class="project_hover">
-                            <div class="project_hover_inner">
-                                <div class="project_hover_content">
-                                    <a href="#"><h4>Водоочистная станция в г. Кайсери, Турция</h4></a>
-                                    <p>
-                                            <br>Дата подписания контракта: 2006
-                                            <br>Дата окончания контракта: 2007
-                                        </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+
                 <div class="col-md-6 building isolation tiling design plumbing">
                     <div class="project_item">
                         <img src="{% static 'img/project/project-two-column/кастамону_800_550.jpg'%}" alt="">
@@ -274,25 +356,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 building isolation tiling design plumbing">
-                    <div class="project_item">
-                        <img src="{% static 'img/project/project-two-column/август_800_550.jpg'%}" alt="">
-                        <div class="project_hover">
-                            <div class="project_hover_inner">
-                                <div class="project_hover_content">
-                                    <a href="#"><h4>Avgust-Алабуга</h4></a>
-                                    <p>
-                                            <br>Дата подписания контракта: 01.05.2017
-                                            <br>Дата окончания контракта: 31.08.2018
-                                        <br>Объём бетона: 4.500 м<sup>3</sup>
-                                        <br>Персонал: 35 человек
-                                        </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
+
         </section>
         <!--================End Our Project2 Area =================-->
 

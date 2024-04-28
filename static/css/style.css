@@ -183,6 +183,7 @@ iframe {
 ============================================================================================ */
 .main_c_title {
   text-align: center;
+   position: relative;
 }
 
 .main_c_title h2 {
@@ -194,6 +195,7 @@ iframe {
   position: relative;
   z-index: 2;
 }
+
 
 .main_c_title h2:before {
   content: "";
@@ -219,6 +221,7 @@ iframe {
 
 .main_c_b_title {
   text-align: center;
+
 }
 
 .main_c_b_title h2 {
@@ -230,6 +233,17 @@ iframe {
   position: relative;
   z-index: 2;
 }
+.main_c_b_title h3 {
+
+  font-size: 30px;
+  font-family: "PT Sans", sans-serif;
+  color: #31353d;
+  font-weight: bold;
+  text-transform: uppercase;
+  position: relative;
+  z-index: 2;
+}
+
 
 .main_c_b_title h2:before {
   content: "";
@@ -3543,7 +3557,7 @@ iframe {
 /* Our Project2 area css
 ============================================================================================ */
 .our_project2_area {
-  padding: 100px 0px 65px 0px;
+  padding: 50px 0px 65px 0px;
   background-color:#eceaea;
 }
 
@@ -3956,6 +3970,79 @@ iframe {
       color: #000000; }
     .footer .contact-form textarea.form-control {
       height: inherit !important; }
+.footer_bg{
+	border-top: 6px solid #DADADA;
+	background: #D6D6D6;
+}
+@media only screen and (max-width: 1280px) {
+	.wrap{
+		width:95%;
+	}
+	.search {
+		width: 24%;
+	}
+	.search input[type="text"] {
+		width: 62.33333%;
+	}
+	.search input[type="submit"] {
+		width: 22.33%;
+	}
+}
+.wrapper{
+	padding: 2%;
+}
+.footer{
+	padding: 1% 0 2%;
+}
+.f_nav{
+ 	margin-top: 4%;
+}
+.f_nav li{
+ 	font-size: 0.8725em;
+	color: #5A5A5A;
+	line-height: 1.8em;
+}
+.f_nav li a{
+	color: #40345C;
+}
+.f_nav  li a:hover{
+	color: #5A5A5A;
+	transition: 0.5s ease;
+	-moz-transition: 0.5s ease;
+	-o-transition: 0.5s ease;
+	-webkit-transition: 0.5s ease;
+}
+.f_nav  li a img{
+	vertical-align: middle;
+	margin-bottom: 4px;
+	margin-right: 10px;
+}
+.f_nav  li a img:hover{
+	opacity: 0.6;
+}
+.clear{clear:both;}/* clear float */
+.col_1_of_3{
+	display: block;
+	float:left;
+	margin-left: 4%;
+}
+.col_1_of_3:first-child { margin-left: 0; } /* all browsers except IE6 and lower */
+.span_1_of_3 {
+	width: 30.33333%;
+}
+.span_1_of_3 h3{
+	text-transform: capitalize;
+	font-size: 2.5em;
+	color: #40345C;
+	font-family: 'Marcellus SC', serif;
+	text-shadow: 0 1px 0 #FFFFFF;
+	margin-bottom:0.5em;
+}
+.span_1_of_3 p{
+	font-size: 0.8725em;
+	color: #5A5A5A;
+	line-height: 1.8em;
+}
 /* End Footer area css
 ============================================================================================ */
 /*---------------------------------------------------- */

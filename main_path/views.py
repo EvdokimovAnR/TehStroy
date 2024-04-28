@@ -14,3 +14,7 @@ def services(request):
 
 def contacts(request):
     return render(request, 'main_path/contacts.html')
+
+
+def about(request):
+    return render(request, 'main_path/About us.html')

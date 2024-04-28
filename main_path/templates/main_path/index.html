@@ -73,7 +73,7 @@
                                     <a href="{% url 'projects'%}">Проекты</a>
                                 </li>
                                 <li><a href="{% url 'services'%}">Услуги</a></li>
-                                <li><a href="">О нас</a></li>
+                                <li><a href="{% url 'about'%}">О нас</a></li>
 <!--                                <li><a href="blog-details.html">blog</a></li>-->
                                 <li><a href="{% url 'contacts'%}">Контакты</a></li>
 <!--                                <li class="icon_search"><a href="#"><i class="mdi mdi-cart"></i></a></li>-->
@@ -369,7 +369,7 @@
                     </div>
                     <div class="col-md-4 col-sm-6 building isolation tiling design">
                         <div class="project_item">
-                            <img src="{% static 'img/project/project-two-column/Бразда_Вилла.jpg'%}" alt="">
+                            <img src="{% static 'img/project/project-two-column/ЖД_Билла_800_550.png'%}" alt="">
                             <div class="project_hover">
                                 <div class="project_hover_inner">
                                     <div class="project_hover_content">
@@ -386,7 +386,7 @@
                     </div>
                     <div class="col-md-4 col-sm-6 isolation tiling interior plumbing">
                         <div class="project_item">
-                            <img src="{% static 'img/project/project-two-column/Офисное_здание_MultiGalaxy.png' %}" alt="">
+                            <img src="{% static 'img/project/project-two-column/Multigalaxy.jpg' %}" alt="">
                             <div class="project_hover">
                                 <div class="project_hover_inner">
                                     <div class="project_hover_content">
@@ -417,7 +417,7 @@
                     </div>
                     <div class="col-md-4 col-sm-6 isolation tiling interior design plumbing">
                         <div class="project_item">
-                            <img src="{% static 'img/project/project-two-column/Водоочистка.jpg'%}" alt="">
+                            <img src="{% static 'img/project/project-two-column/Станция_Сибиу.jpg'%}" alt="">
                             <div class="project_hover">
                                 <div class="project_hover_inner">
                                     <div class="project_hover_content">
@@ -511,68 +511,68 @@
         <!--================End Quoto Slider Area =================-->
 
         <!--================Our Team2 Area =================-->
-        <section class="our_team_area2">
-            <div class="container">
-                <div class="main_c_b_title">
-                    <h2>Наша<br class="title_br">Команда</h2>
-                    <h6>Мы трудолюбивые и опытные</h6>
-                </div>
-                <div class="team_slider2_inner owl-carousel">
-                    <div class="item">
-                        <div class="team_image">
-                            <img src="{% static 'img/team/team-2/team-1.jpg'%}" alt="">
-                            <ul>
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                                <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-                            </ul>
-                        </div>
-                        <a href="#"><h4>A. R. Khan</h4></a>
-                        <h5>Civil Engenear</h5>
-                    </div>
-                    <div class="item">
-                        <div class="team_image">
-                            <img src="{% static 'img/team/team-2/team-2.jpg'%}" alt="">
-                            <ul>
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                                <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-                            </ul>
-                        </div>
-                        <a href="#"><h4>Shirina sarkar</h4></a>
-                        <h5>Civil Engenear</h5>
-                    </div>
-                    <div class="item">
-                        <div class="team_image">
-                            <img src="{% static 'img/team/team-2/team-3.jpg'%}" alt="">
-                            <ul>
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                                <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-                            </ul>
-                        </div>
-                        <a href="#"><h4>Rashidul islam</h4></a>
-                        <h5>Civil Engenear</h5>
-                    </div>
-                    <div class="item">
-                        <div class="team_image">
-                            <img src="{% static 'img/team/team-2/team-2.jpg'%}" alt="">
-                            <ul>
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                                <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-                            </ul>
-                        </div>
-                        <a href="#"><h4>Jahin Ali</h4></a>
-                        <h5>Civil Engenear</h5>
-                    </div>
-                </div>
-            </div>
-        </section>
+<!--        <section class="our_team_area2">-->
+<!--            <div class="container">-->
+<!--                <div class="main_c_b_title">-->
+<!--                    <h2>Наша<br class="title_br">Команда</h2>-->
+<!--                    <h6>Мы трудолюбивые и опытные</h6>-->
+<!--                </div>-->
+<!--                <div class="team_slider2_inner owl-carousel">-->
+<!--                    <div class="item">-->
+<!--                        <div class="team_image">-->
+<!--                            <img src="{% static 'img/team/team-2/team-1.jpg'%}" alt="">-->
+<!--                            <ul>-->
+<!--                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>-->
+<!--                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>-->
+<!--                                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>-->
+<!--                                <li><a href="#"><i class="fa fa-pinterest"></i></a></li>-->
+<!--                            </ul>-->
+<!--                        </div>-->
+<!--                        <a href="#"><h4>A. R. Khan</h4></a>-->
+<!--                        <h5>Civil Engenear</h5>-->
+<!--                    </div>-->
+<!--                    <div class="item">-->
+<!--                        <div class="team_image">-->
+<!--                            <img src="{% static 'img/team/team-2/team-2.jpg'%}" alt="">-->
+<!--                            <ul>-->
+<!--                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>-->
+<!--                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>-->
+<!--                                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>-->
+<!--                                <li><a href="#"><i class="fa fa-pinterest"></i></a></li>-->
+<!--                            </ul>-->
+<!--                        </div>-->
+<!--                        <a href="#"><h4>Shirina sarkar</h4></a>-->
+<!--                        <h5>Civil Engenear</h5>-->
+<!--                    </div>-->
+<!--                    <div class="item">-->
+<!--                        <div class="team_image">-->
+<!--                            <img src="{% static 'img/team/team-2/team-3.jpg'%}" alt="">-->
+<!--                            <ul>-->
+<!--                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>-->
+<!--                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>-->
+<!--                                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>-->
+<!--                                <li><a href="#"><i class="fa fa-pinterest"></i></a></li>-->
+<!--                            </ul>-->
+<!--                        </div>-->
+<!--                        <a href="#"><h4>Rashidul islam</h4></a>-->
+<!--                        <h5>Civil Engenear</h5>-->
+<!--                    </div>-->
+<!--                    <div class="item">-->
+<!--                        <div class="team_image">-->
+<!--                            <img src="{% static 'img/team/team-2/team-2.jpg'%}" alt="">-->
+<!--                            <ul>-->
+<!--                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>-->
+<!--                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>-->
+<!--                                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>-->
+<!--                                <li><a href="#"><i class="fa fa-pinterest"></i></a></li>-->
+<!--                            </ul>-->
+<!--                        </div>-->
+<!--                        <a href="#"><h4>Jahin Ali</h4></a>-->
+<!--                        <h5>Civil Engenear</h5>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </section>-->
         <!--================End Our Team2 Area =================-->
 <!--<section class="testimonials_area">-->
 <!--<div class="container">-->
